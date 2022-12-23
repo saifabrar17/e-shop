@@ -1,0 +1,48 @@
+.addbutton:hover{
+    color: green;
+}
+.minusbutton:hover{
+    color: crimson;
+}
+
+.buybutton{
+    
+    background-image: linear-gradient(213deg,#ff7b48 7%,#f73c22 92%);
+}
+.addcartbutton{
+    background-image: linear-gradient(239deg,#e08905 7%,#da6608);
+}
+
+
+.squre-sec{
+    background-color: #232f3e;
+    color: white;
+    padding: 3px 5px;
+    margin-right: 2px;
+}
+
+
+
+/* .static-section{
+     background-color: aquamarine; 
+} */
+
+/* .scroll-section{
+    background-color: bisque;
+    flex-basis: 80%;
+    overflow-y: scroll;
+    height: 100vh;
+    max-height: auto;
+} */
+
+.scroll-section::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll-section{
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
+

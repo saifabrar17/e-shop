@@ -1,0 +1,29 @@
+/* style={{height:'150px',width:'280px'}} */
+
+.category-content{
+    height: 150px;
+    width: 280px;
+}
+
+@media only screen and (max-width:600px){
+    .category-content{
+        height: 120px;
+        width: 200px;
+    }
+    
+}
+
+@media only screen and (max-width:430px){
+    .category-content{
+        height: 110px;
+        width: 150px;
+    }
+    
+}
+@media only screen and (max-width:350px){
+    .category-content{
+        height: 110px;
+        width: 110px;
+    }
+    
+}

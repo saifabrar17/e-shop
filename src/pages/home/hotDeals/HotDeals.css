@@ -1,0 +1,56 @@
+.slick-next {
+    border-radius: 20px;
+    margin-right: 10px;
+   
+}
+.slick-prev {
+    border-radius: 20px;
+    margin-left: 10px;
+}
+ 
+
+.slick-next:hover,.slick-prev:hover {
+    color: black;
+    background-color: rgb(12, 165, 50);
+}
+
+
+@media only screen and (max-width:576px){
+    .slick-next {
+       
+        margin-right: 15px;
+    }
+    .slick-prev {
+        
+        margin-left: 15px;
+        
+    }
+ 
+}
+
+.card-img-bg{
+    background-color: rgb(214, 220, 221);
+
+}
+
+
+.text-overlap {
+    position: relative;
+  }
+  
+  .card-overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background: rgba(255, 255, 0, 0.897);
+    }
+  
+  .text-overlap:hover .card-overlay {
+      opacity: 1;
+    }
